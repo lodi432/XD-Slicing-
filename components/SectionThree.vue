@@ -1,4 +1,5 @@
 <template>
+
   <div id="wrap">
     <div id="left">
       <img src="~/assets/undraw_in_sync_xwsa.png" class="responsive"/>
@@ -15,17 +16,19 @@
   </div>
 </template>
 
-
 <style lang="scss" scoped>
   #wrap {
-
     display: flex;
-    justify-content: center;
+
     width: 100%;
+    height: 690px;
+    justify-content: center;
+    align-items: center;
   }
 
   #left, #right {
     padding: 20px;
+    margin:150px;
   }
 
   .responsive {

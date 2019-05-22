@@ -6,7 +6,7 @@
       </div>
 
       <div class="right">
-        <div class="block">
+        <div class="block1">
         <a href="#news"><img src="~/assets/GroupIcon.png"/></a>
         <p style="font-size: 20px;">But I must explain to you how all</p>
         <p style="font-size:14px;">
@@ -14,7 +14,7 @@
         </p>
         </div>
 
-        <div class="block">
+        <div class="block2">
         <a href="#news"><img src="~/assets/circle.png"/></a>
         <p style="font-size: 20px; ">But I must explain to you how all</p>
         <p style="font-size:14px">
@@ -22,7 +22,7 @@
         </p>
         </div>
 
-        <div class="block2">
+        <div class="block3">
         <a href="#news"><img src="~/assets/GroupIcon.png"/></a>
         <p style="font-size: 20px;">Bt I must explain to you how all</p>
         <p style="font-size:14px;">
@@ -30,7 +30,7 @@
         </p>
         </div>
 
-        <div class="block2">
+        <div class="block4">
         <a href="#news"><img src="~/assets/circle.png"/></a>
         <p style="font-size: 20px;">But I must explain to you how all</p>
         <p style="font-size:14px">
@@ -44,7 +44,6 @@
 <style scoped>
 
   .flexi{
-
     display:flex;
     height: 625px;
 /*    border: 3px solid green;*/
@@ -71,7 +70,43 @@
     margin:150px;
   }
 
+
+   .block1{
+
+   }
+
   .block2{
     margin-left: 40px;
   }
+  .block3{
+
+    order: -1;
+
+  }
+
+  .block4{
+    margin-left: 40px;
+
+  }
+
+  .responsive {
+    width: 93%;
+    height: auto;
+  }
+
+  @media screen and (max-width: 1300px) {
+    .flexi {
+      flex-direction: column;
+    }
+
+   /* .block3 {
+      flex-direction: column;
+  }
+
+    .block4 {
+      flex-direction: column;
+    }*/
+  }
+
+
 </style>

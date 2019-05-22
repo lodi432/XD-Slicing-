@@ -71,4 +71,10 @@
     .social {
       display: flex;
     }
+
+    @media screen and (max-width: 1224px) {
+      .flex-container  {
+        flex-direction: column;
+      }
+    }
   </style>

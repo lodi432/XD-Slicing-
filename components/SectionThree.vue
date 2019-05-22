@@ -19,7 +19,6 @@
 <style lang="scss" scoped>
   #wrap {
     display: flex;
-
     width: 100%;
     height: 690px;
     justify-content: center;
@@ -36,4 +35,12 @@
     width: 100%;
     height: auto;
   }
+
+  @media screen and (max-width: 1200px) {
+    .left {
+      display: block;
+    }
+
+  }
+
 </style>

@@ -18,10 +18,6 @@
     </div>
     <div class="card-carousel--nav__right" @click="moveCarousel(1)" :disabled="atEndOfList"></div>
   </div>
-
-<!--<div id="app">
-  <carousel></carousel>
-</div>-->
   </div>
 </template>
 
@@ -30,6 +26,7 @@
 
   .mainWrapper{
     border: 3px solid lightgray;
+
   }
 
   .card-carousel-wrapper {
@@ -157,7 +154,14 @@
     background: white;
     box-shadow: -0px -0px 0px #004977;
   }
-
+  @media screen and (max-width: 1900px) {
+    .card-carousel {
+      display: flex;
+      justify-content: center;
+      width: 70%;
+      height: auto;
+    }
+  }
 
 
 </style>

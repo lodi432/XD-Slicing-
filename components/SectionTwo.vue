@@ -73,31 +73,26 @@
     margin-left: 40px;
   }
   .block3{
-
     order: -1;
 
   }
 
   .block4{
     margin-left: 40px;
-
   }
 
   .responsive {
     width: 90%;
     height: auto;
-
   }
 
   @media screen and (max-width: 1300px) {
     .flexi {
       flex-direction: column;
-
     }
 
     .responsive {
       width: 70%;
-
     }
 
     .block3 {
@@ -109,12 +104,10 @@
     }
 
     .left{
-    
       margin-top: 10px;
     }
 
     .right{
-
       margin: 0;
     }
 

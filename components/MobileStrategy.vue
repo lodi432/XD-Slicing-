@@ -66,18 +66,19 @@
     margin: 85px;
   }
 
-
-
-/*
   .responsive {
     width: 100%;
     height: auto;
   }
-*/
 
   @media screen and (max-width: 1200px) {
     .flex-container {
       display: block;
+    }
+
+    .responsive {
+      width: 70%;
+      height: auto;
     }
   }
 

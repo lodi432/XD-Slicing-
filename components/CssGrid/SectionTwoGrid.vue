@@ -1,77 +1,63 @@
 <template>
-    <div class="flexi">
+  <div class="center">
 
-      <div class="left">
-      <img src="~/assets/undraw_content_vbqo.png" class="responsive"/>
-      </div>
+    <img src="~/assets/undraw_content_vbqo.png" class="responsive"/>
 
-      <div class="right">
-        <div class="block">
+    <div class="features">
+      <div class="grids">
         <a href="#news"><img src="~/assets/GroupIcon.png"/></a>
         <p style="font-size: 20px;">But I must explain to you how all</p>
         <p style="font-size:14px;">
           The quick, brown fox jumps over a <br> lazy dog. DJs flock by when MTV ax.
         </p>
-        </div>
+      </div>
 
-        <div class="block">
+      <div class="grids">
         <a href="#news"><img src="~/assets/circle.png"/></a>
         <p style="font-size: 20px; ">But I must explain to you how all</p>
         <p style="font-size:14px">
           But I must explain to you how all <br> this mistaken idea of denouncing pleasure
         </p>
-        </div>
 
-        <div class="block2">
+      </div>
+
+      <div class="grids">
         <a href="#news"><img src="~/assets/GroupIcon.png"/></a>
         <p style="font-size: 20px;">Bt I must explain to you how all</p>
         <p style="font-size:14px;">
           The quick, brown fox jumps over a <br> lazy dog. DJs flock by when MTV ax.
         </p>
-        </div>
+      </div>
 
-        <div class="block2">
+      <div class="grids">
         <a href="#news"><img src="~/assets/circle.png"/></a>
         <p style="font-size: 20px;">But I must explain to you how all</p>
         <p style="font-size:14px">
           But I must explain to you how all <br> this mistaken idea of denouncing
         </p>
-          </div>
       </div>
     </div>
+  </div>
 </template>
 
-<style scoped>
 
-  .flexi{
-
-    display:flex;
-    height: 625px;
-/*    border: 3px solid green;*/
-    justify-content: center;
-    align-items: center;
-
+<style lang="scss" scoped>
+  .center {
+    margin: auto;
+    width: 80%;
+    padding: 80px;
+    display:grid ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:1em;
   }
 
-  .left{
-    /*border: 3px solid deepskyblue;*/
-    height: 380px ;
-    width: 510px;
-
+  .responsive {
+    width: 90%;
+    height: auto;
   }
 
-  .right{
-  /*  border: 3px solid deepskyblue;*/
-    display:flex;
-    height: 380px ;
-    width: 620px;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin:150px;
-  }
-
-  .block2{
-    margin-left: 40px;
+  .features {
+    display:grid ;
+    grid-template-columns: repeat(2, 1fr);
   }
 </style>

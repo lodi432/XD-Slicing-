@@ -10,6 +10,8 @@
 <script>
   import NavbarAlt from '@/components/NavbarAlt'
   import NavbarBottom from '@/components/NavbarBottom'
+
+
   export default {
     components: {
       NavbarAlt, NavbarBottom

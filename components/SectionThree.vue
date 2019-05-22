@@ -5,7 +5,7 @@
     </div>
     <div id="right">
       <a href="#news"><img src="~/assets/GroupIcon.png"/></a>
-      <p style="font-size: 20px;">Maecenas interdum lorem eleifend orci </p>
+      <p style="font-size: 20px;">Mihedrin interdum lorem eleifend orci </p>
       <a href="#news"><img src="~/assets/group 47820.png"/></a>
       <p style="font-size: 20px; ">Duis vestibulum elit vel neque pharetra vulputate.</p>
       <p style="font-size:14px">
@@ -25,9 +25,9 @@
   }
 
   #left, #right {
-
     padding: 20px;
   }
+
   .responsive {
     width: 100%;
     height: auto;

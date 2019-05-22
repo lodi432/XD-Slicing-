@@ -22,7 +22,7 @@
             <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
-        <div><o>Follow us</o>
+        <div><p>Follow us</p>
           <div class="social">
             <a href="#news"><img src="~/assets/Facebook Icon.png"/></a>
             <a href="#news"><img src="~/assets/G+.png"/></a>

@@ -24,6 +24,7 @@
     height: 690px;
     justify-content: center;
     align-items: center;
+
   }
 
   #left, #right {

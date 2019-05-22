@@ -1,52 +1,46 @@
 <template>
-    <div class="flexi">
-
-      <div class="left">
+  <div class="flexi">
+    <div class="left">
       <img src="~/assets/undraw_content_vbqo.png" class="responsive"/>
-      </div>
-
-      <div class="right">
-        <div class="block1">
+    </div>
+    <div class="right">
+      <div class="block1">
         <a href="#news"><img src="~/assets/GroupIcon.png"/></a>
         <p style="font-size: 20px;">But I must explain to you how all</p>
         <p style="font-size:14px;">
           The quick, brown fox jumps over a <br> lazy dog. DJs flock by when MTV ax.
         </p>
-        </div>
-
-        <div class="block2">
+      </div>
+      <div class="block2">
         <a href="#news"><img src="~/assets/circle.png"/></a>
         <p style="font-size: 20px; ">But I must explain to you how all</p>
         <p style="font-size:14px">
           But I must explain to you how all <br> this mistaken idea of denouncing pleasure
         </p>
-        </div>
-
-        <div class="block3">
+      </div>
+      <div class="block3">
         <a href="#news"><img src="~/assets/GroupIcon.png"/></a>
         <p style="font-size: 20px;">Bt I must explain to you how all</p>
         <p style="font-size:14px;">
           The quick, brown fox jumps over a <br> lazy dog. DJs flock by when MTV ax.
         </p>
-        </div>
-
-        <div class="block4">
+      </div>
+      <div class="block4">
         <a href="#news"><img src="~/assets/circle.png"/></a>
         <p style="font-size: 20px;">But I must explain to you how all</p>
         <p style="font-size:14px">
           But I must explain to you how all <br> this mistaken idea of denouncing
         </p>
-          </div>
       </div>
     </div>
+  </div>
 </template>
-
 <style scoped>
-
   .flexi{
     display:flex;
+    /*  min-height: 100vh;*/
     height: 625px;
-/*    border: 3px solid green;*/
+    border: 3px solid lightgray;
     justify-content: center;
     align-items: center;
 
@@ -60,7 +54,7 @@
   }
 
   .right{
-  /*  border: 3px solid deepskyblue;*/
+    /*  border: 3px solid deepskyblue;*/
     display:flex;
     height: 380px ;
     width: 620px;
@@ -71,9 +65,9 @@
   }
 
 
-   .block1{
+  .block1{
 
-   }
+  }
 
   .block2{
     margin-left: 40px;
@@ -90,22 +84,40 @@
   }
 
   .responsive {
-    width: 93%;
+    width: 90%;
     height: auto;
+
   }
 
   @media screen and (max-width: 1300px) {
     .flexi {
       flex-direction: column;
+
     }
 
-   /* .block3 {
+    .responsive {
+      width: 70%;
+
+    }
+
+    .block3 {
       flex-direction: column;
-  }
+    }
 
     .block4 {
       flex-direction: column;
-    }*/
+    }
+
+    .left{
+    
+      margin-top: 10px;
+    }
+
+    .right{
+
+      margin: 0;
+    }
+
   }
 
 

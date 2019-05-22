@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mainWrapper">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" rel="stylesheet"/>
 <h1>Carousel slider2</h1>
   <div class="card-carousel-wrapper">
@@ -27,11 +27,10 @@
 
 
 <style lang="scss" scoped >
-/*  body {
-    background: #f8f8f8;
-    color: #2c3e50;
-    min-height: 1000px;
-  }*/
+
+  .mainWrapper{
+    border: 3px solid lightgray;
+  }
 
   .card-carousel-wrapper {
     display: flex;
@@ -39,7 +38,6 @@
     justify-content: center;
     margin: 20px 0 40px;
    /* padding-left: 200px;*/
-
     color: #666a73;
 
 

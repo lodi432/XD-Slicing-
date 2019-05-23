@@ -110,20 +110,27 @@
   //Responsive stuff for navigation ! Revisit !!!!
 
 
- /* @media screen and (max-width: 760px) {
+  @media screen and (max-width: 760px) {
     ul {
       position: static;
-      display: none;
+
     }
     li {
       margin-bottom: 1px;
+
     }
     ul li,
     li a {
       width: 100%;
+
+
+
+
     }
     .show-menu {
       display: block;
+
+
     }
-  }*/
+  }
 </style>

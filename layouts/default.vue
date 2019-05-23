@@ -8,8 +8,8 @@
 </template>
 
 <script>
-  import NavbarAlt from '@/components/NavbarAlt'
-  import NavbarBottom from '@/components/NavbarBottom'
+  import NavbarAlt from '@/components/Navbar/NavbarAlt'
+  import NavbarBottom from '@/components/Navbar/NavbarBottom'
 
 
   export default {

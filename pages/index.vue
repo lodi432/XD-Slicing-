@@ -13,14 +13,14 @@
 </template>
 
 <script>
-  import TheHero from '@/components/TheHero'
-  import SectionOne from '@/components/SectionOne'
-  import SectionTwo from '@/components/SectionTwo'
-  import SectionThree from '@/components/SectionThree'
-  import Carousel from '@/components/Carousel'
-  import MobileStrategy from '@/components/MobileStrategy'
-  import Featured from '@/components/Featured'
-  import Footer from '@/components/Footer'
+  import TheHero from '@/components/Hero/TheHero'
+  import SectionOne from '@/components/Sections/SectionOne'
+  import SectionTwo from '@/components/Sections/SectionTwo'
+  import SectionThree from '@/components/Sections/SectionThree'
+  import Carousel from '@/components/Corusel/Carousel'
+  import MobileStrategy from '@/components/Sections/MobileStrategy'
+  import Featured from '@/components/Sections/Featured'
+  import Footer from '@/components/Footer/Footer'
   export default {
     components: {
       TheHero, SectionTwo, SectionThree, Carousel, MobileStrategy, Featured , SectionOne, Footer

@@ -1,5 +1,6 @@
 <template>
   <div class="hero-image">
+    <div class="mask"></div>
     <div class="hero-text">
       <p1>THE QUICK, BROWN FOX JUMPS</p1>
       <h1>DJs flock by when MTV ax quiz prog. <br />Junk MTV quiz.</h1>
@@ -19,13 +20,19 @@
   background-image: url("~assets/RedHeadRedemption.png");
 
   /* Set a specific height */
-  height: 700px;
+  height: 1180px;
   margin-top: -22px;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+.mask{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.3);
 }
 
 /* Place text in the middle of the image */
@@ -36,5 +43,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+
 }
 </style>

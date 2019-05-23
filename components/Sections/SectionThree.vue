@@ -31,14 +31,17 @@
     margin:150px;
   }
 
-  .responsive {
-    width: 100%;
-    height: auto;
-  }
+
 
   @media screen and (max-width: 1200px) {
     .left {
       display: block;
+
+    }
+
+    .responsive {
+      width: 380px;
+      margin-right: -200px;
     }
 
   }

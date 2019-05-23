@@ -77,8 +77,9 @@
     float: right;
   }
 
-  /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+  /* Responsive navigation menu */
   @media screen and (max-width: 600px) {
+
     .topnav a, .topnav-right {
       float: none;
       display: block;

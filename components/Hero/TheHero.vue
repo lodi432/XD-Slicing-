@@ -27,6 +27,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+
 }
 .mask{
   position:absolute;

@@ -72,7 +72,8 @@
     </div>
   </div>
 </template>
-  <style scoped>
+  <style lang="scss" scoped>
+
     .some-page-wrapper {
       margin: 80px;
     }
@@ -90,9 +91,6 @@
       flex-basis: 100%;
       flex: 1;
     }
-
   </style>
 
-<script>
-</script>
 

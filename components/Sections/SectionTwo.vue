@@ -1,31 +1,31 @@
 <template>
-  <div class="flexi">
-    <div class="left">
-      <img src="~/assets/undraw_content_vbqo.png" class="responsive"/>
+  <div id="flexi">
+    <div id="left">
+      <img src="~/assets/undraw_content_vbqo.png" id="responsive"/>
     </div>
-    <div class="right">
-      <div class="block1">
+    <div id="right">
+      <div id="block1">
         <a href="#news"><img src="~/assets/GroupIcon.png"/></a>
         <p style="font-size: 20px;">But I must explain to you how all</p>
         <p style="font-size:14px;">
           The quick, brown fox jumps over a <br> lazy dog. DJs flock by when MTV ax.
         </p>
       </div>
-      <div class="block2">
+      <div id="block2">
         <a href="#news"><img src="~/assets/circle.png"/></a>
         <p style="font-size: 20px; ">But I must explain to you how all</p>
         <p style="font-size:14px">
           But I must explain to you how all <br> this mistaken idea of denouncing pleasure
         </p>
       </div>
-      <div class="block3">
+      <div id="block3">
         <a href="#news"><img src="~/assets/GroupIcon.png"/></a>
         <p style="font-size: 20px;">Bt I must explain to you how all</p>
         <p style="font-size:14px;">
           The quick, brown fox jumps over a <br> lazy dog. DJs flock by when MTV ax.
         </p>
       </div>
-      <div class="block4">
+      <div id="block4">
         <a href="#news"><img src="~/assets/circle.png"/></a>
         <p style="font-size: 20px;">But I must explain to you how all</p>
         <p style="font-size:14px">
@@ -35,25 +35,22 @@
     </div>
   </div>
 </template>
-<style scoped>
-  .flexi{
+
+<style lang="scss" scoped>
+  #flexi{
     display:flex;
-    /*  min-height: 100vh;*/
     height: 625px;
     border: 3px solid lightgray;
     justify-content: center;
     align-items: center;
-
   }
 
-  .left{
-    /*border: 3px solid deepskyblue;*/
+  #left{
     height: 380px ;
     width: 510px;
-
   }
 
-  .right{
+  #right{
     /*  border: 3px solid deepskyblue;*/
     display:flex;
     height: 380px ;
@@ -64,54 +61,54 @@
     margin:150px;
   }
 
-
-  .block1{
-
-  }
-
-  .block2{
+  #block2{
     margin-left: 40px;
   }
-  .block3{
+
+  #block3{
     order: -1;
-
   }
 
-  .block4{
+  #block4{
     margin-left: 40px;
   }
 
-  .responsive {
+  #responsive {
     width: 90%;
     height: auto;
   }
 
-  @media screen and (max-width: 1300px) {
-    .flexi {
-      flex-direction: column;
+  @media screen and (max-width: 760px) {
+
+    #flexi{
+      border: none;
+
     }
 
-    .responsive {
-      width: 70%;
+    #right {
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin:  90px 0px 0px 0px ;
+      width: 100%;
+      position: absolute;
+      }
+
+    #left{
     }
 
-    .block3 {
-      flex-direction: column;
+    #block2{
+      margin-left: 0px;
     }
 
-    .block4 {
-      flex-direction: column;
+    #block4{
+      margin-left: 0px;
     }
 
-    .left{
-      margin-top: 10px;
+    #responsive {
+      width: 50%;
+      margin-left: 100px;
+      margin-top: -150px;
+      height: auto;
     }
-
-    .right{
-      margin: 0;
-    }
-
   }
-
-
 </style>

@@ -47,7 +47,7 @@
   .center {
     margin: auto;
     width: 80%;
-    padding: 80px;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap:1em;
@@ -57,4 +57,10 @@
     width: 100%;
     height: auto;
   }
+
+  @media screen and (min-width: 1200px){
+    .center {
+      padding: 80px;
+    }
+    }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <!--second navigation bottom-->
-    <div class="container" style="background-color: black; margin: -18px; margin: -21px;">
+    <div class="container" style="background-color: black; margin: -18px; margin: 0px;">
       <nav class="navbar navbar-default" role="navigation">
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -36,19 +36,30 @@
 </script>
 <style lang="scss" scoped>
 
+
+
+  .container {
+    /*    margin: 0px auto;
+        width: 705px;*/
+
+  }
   .nav {
-    margin: 0px auto;
-    width: 705px;
+   /* margin: 0px auto;*/
+    max-width: 705px;
+  /*  display:flex;*/
+    margin-bottom: -23px;
   }
   ul {
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
+
   }
   li {
     display: inline;
     float: left;
     margin-right: 1px;
+
   }
   li a {
     display: inline-block;
@@ -84,7 +95,7 @@
   li ul li a {
     width: auto;
     min-width: 100px;
-    padding: 0 20px;
+    padding: 0 50px;
   }
   ul li a:hover + .hidden,
   .hidden:hover {
@@ -109,28 +120,22 @@
 
   //Responsive stuff for navigation ! Revisit !!!!
 
-
   @media screen and (max-width: 760px) {
+
     ul {
       position: static;
-
     }
+
     li {
       margin-bottom: 1px;
-
     }
+
     ul li,
     li a {
       width: 100%;
-
-
-
-
     }
     .show-menu {
       display: block;
-
-
     }
   }
 </style>

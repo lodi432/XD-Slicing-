@@ -4,8 +4,8 @@
         <div><h4>multi.</h4>
           <p style="font-size: 14px;">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings</p>
         </div>
-        <div><p class="heading">Discover</p>
-          <ul style="list-style-type:none; font-size: 14px;">
+        <div><p class="heading" style="font-size: 14px;">Discover</p>
+          <ul style="list-style-type:none; font-size: 16px;">
             <li><a href="/about">About</a></li>
             <li><a href="/services">Services</a></li>
             <li><a href="/project">Project</a></li>
@@ -13,8 +13,8 @@
             <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
-        <div><p class="heading">Support</p>
-          <ul style="list-style-type:none; font-size: 14px;">
+        <div><p class="heading" style="font-size: 14px;">Support</p>
+          <ul style="list-style-type:none; font-size: 16px;">
             <li><a href="/about">About</a></li>
             <li><a href="/services">Services</a></li>
             <li><a href="/project">Project</a></li>
@@ -22,7 +22,7 @@
             <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
-        <div><p>Follow us</p>
+        <div><p >Follow us</p>
           <div class="social">
             <a href="#news"><img src="~/assets/Facebook Icon.png"/></a>
             <a href="#news"><img src="~/assets/G+.png"/></a>
@@ -36,7 +36,6 @@
 
 
   <style scoped>
-
     .heading{
        padding-left: 38px;
     }
@@ -51,23 +50,19 @@
       background-color: transparent;
     }
     .flex-container {
-
       display: flex;
       flex-direction: row;
       align-items: center;
-
       background-color: black;
       color: white;
-
-
+      align-items: center;
     }
 
     .flex-container > div {
-
       background-color: black;
-
       margin: 85px;
     }
+
     .social {
       display: flex;
     }

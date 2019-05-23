@@ -1,8 +1,8 @@
 <template>
 
   <div id="wrap">
-    <div id="left">
-      <img src="~/assets/undraw_in_sync_xwsa.png" class="responsive"/>
+    <div id="left">s
+      <img src="~/assets/undraw_in_sync_xwsa.png" id="responsive"/>
     </div>
     <div id="right">
       <a href="#news"><img src="~/assets/GroupIcon.png"/></a>
@@ -23,27 +23,27 @@
     height: 690px;
     justify-content: center;
     align-items: center;
-
   }
 
-  #left, #right {
+   #right {
     padding: 20px;
     margin:150px;
   }
 
+  @media screen and (max-width: 760px){
+    #right{
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin:  140px 0px 0px 0px ;
 
-
-  @media screen and (max-width: 1200px) {
-    .left {
-      display: block;
-
+      position: absolute;
     }
 
-    .responsive {
-      width: 380px;
-      margin-right: -200px;
+    #responsive {
+      width: 30%;
+      margin-left: 120px;
+      margin-top: -30px;
+      height: auto;
     }
-
   }
-
 </style>

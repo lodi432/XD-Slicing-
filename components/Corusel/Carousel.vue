@@ -1,7 +1,7 @@
 <template>
   <div class="mainWrapper">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" rel="stylesheet"/>
-<h1>Carousel slider2</h1>
+    <div naslov><h1>Corusel slider 2</h1></div>
   <div class="card-carousel-wrapper">
     <div class="card-carousel--nav__left" @click="moveCarousel(-1)" :disabled="atHeadOfList"></div>
     <div class="card-carousel">
@@ -29,6 +29,7 @@
 
   }
 
+
   .card-carousel-wrapper {
     display: flex;
     align-items: center;
@@ -36,8 +37,10 @@
     margin: 20px 0 40px;
    /* padding-left: 200px;*/
     color: #666a73;
+  }
 
-
+  h1 {
+    text-align:center;
   }
 
   .card-carousel {
@@ -161,6 +164,7 @@
       width: 70%;
       height: auto;
     }
+
   }
 
 

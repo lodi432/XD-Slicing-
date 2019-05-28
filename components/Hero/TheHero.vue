@@ -2,7 +2,7 @@
   <div class="hero-image">
     <div class="mask"></div>
     <div class="hero-text">
-      <p1>THE QUICK, BROWN FOX JUMPS</p1>
+      <p>THE QUICK, BROWN FOX JUMPS</p>
       <h1>DJs flock by when MTV ax quiz prog. <br />Junk MTV quiz.</h1>
       <button
         style="background-color: #611AFF; font-size: 14px; border: none;color: white; height: 60px; width: 140px"
